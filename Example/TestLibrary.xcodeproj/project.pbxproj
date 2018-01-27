@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1499B325201C6901000438DB /* SayHello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1499B31C201C6901000438DB /* SayHello.framework */; };
+		1499B32C201C6901000438DB /* SayHelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499B32B201C6901000438DB /* SayHelloTests.swift */; };
+		1499B32E201C6901000438DB /* SayHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 1499B31E201C6901000438DB /* SayHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1499B331201C6901000438DB /* SayHello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1499B31C201C6901000438DB /* SayHello.framework */; };
+		1499B332201C6901000438DB /* SayHello.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1499B31C201C6901000438DB /* SayHello.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1499B33A201C690F000438DB /* SayHello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499B315201C68E7000438DB /* SayHello.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -18,6 +24,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1499B326201C6901000438DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1499B31B201C6901000438DB;
+			remoteInfo = SayHello;
+		};
+		1499B328201C6901000438DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = TestLibrary_Example;
+		};
+		1499B32F201C6901000438DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1499B31B201C6901000438DB;
+			remoteInfo = SayHello;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -27,8 +54,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1499B336201C6901000438DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1499B332201C6901000438DB /* SayHello.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		15127872997A47DA9D69FAB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1499B315201C68E7000438DB /* SayHello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayHello.swift; sourceTree = "<group>"; };
+		1499B31C201C6901000438DB /* SayHello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SayHello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1499B31E201C6901000438DB /* SayHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
+		1499B31F201C6901000438DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1499B324201C6901000438DB /* SayHelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayHelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1499B32B201C6901000438DB /* SayHelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayHelloTests.swift; sourceTree = "<group>"; };
+		1499B32D201C6901000438DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15127872997A47DA9D69FAB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1C8D19E07A964629BBAC4E41 /* Pods-TestLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestLibrary_Example/Pods-TestLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4614577AD407302D5F0AE0CB /* Pods-TestLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestLibrary_Tests/Pods-TestLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TestLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,20 +89,36 @@
 		607FACE51AFB9204008FA782 /* TestLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7A19A69453C6082A7967E3CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A19A69453C6082A7967E3CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		86061C42BC966111001139C0 /* Pods-TestLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestLibrary_Example/Pods-TestLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AB29CDF2CC706C30FB7DF61E /* TestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestLibrary.podspec; path = ../TestLibrary.podspec; sourceTree = "<group>"; };
+		AB29CDF2CC706C30FB7DF61E /* TestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestLibrary.podspec; path = ../TestLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCDF56816C2247B89DCA38BC /* Pods-TestLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestLibrary_Tests/Pods-TestLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA11496FD60647507AD72496 /* Pods_TestLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5887CCF8F58DEFE35BFE5B3 /* Pods_TestLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1499B318201C6901000438DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1499B321201C6901000438DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1499B325201C6901000438DB /* SayHello.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6B1CE8926FD00A498321742F /* Pods_TestLibrary_Example.framework in Frameworks */,
+				1499B331201C6901000438DB /* SayHello.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +133,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1499B31D201C6901000438DB /* SayHello */ = {
+			isa = PBXGroup;
+			children = (
+				1499B31E201C6901000438DB /* SayHello.h */,
+				1499B31F201C6901000438DB /* Info.plist */,
+			);
+			path = SayHello;
+			sourceTree = "<group>";
+		};
+		1499B32A201C6901000438DB /* SayHelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				1499B32B201C6901000438DB /* SayHelloTests.swift */,
+				1499B32D201C6901000438DB /* Info.plist */,
+			);
+			path = SayHelloTests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TestLibrary */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				1499B31D201C6901000438DB /* SayHello */,
+				1499B32A201C6901000438DB /* SayHelloTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				CFEDDCC1410F9E158AA64A31 /* Pods */,
 				E9A4084315A02BEEE6D65575 /* Frameworks */,
@@ -86,6 +170,8 @@
 			children = (
 				607FACD01AFB9204008FA782 /* TestLibrary_Example.app */,
 				607FACE51AFB9204008FA782 /* TestLibrary_Tests.xctest */,
+				1499B31C201C6901000438DB /* SayHello.framework */,
+				1499B324201C6901000438DB /* SayHelloTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +179,7 @@
 		607FACD21AFB9204008FA782 /* Example for TestLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				1499B315201C68E7000438DB /* SayHello.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -161,7 +248,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1499B319201C6901000438DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1499B32E201C6901000438DB /* SayHello.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		1499B31B201C6901000438DB /* SayHello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1499B333201C6901000438DB /* Build configuration list for PBXNativeTarget "SayHello" */;
+			buildPhases = (
+				1499B317201C6901000438DB /* Sources */,
+				1499B318201C6901000438DB /* Frameworks */,
+				1499B319201C6901000438DB /* Headers */,
+				1499B31A201C6901000438DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHello;
+			productName = SayHello;
+			productReference = 1499B31C201C6901000438DB /* SayHello.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1499B323201C6901000438DB /* SayHelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1499B337201C6901000438DB /* Build configuration list for PBXNativeTarget "SayHelloTests" */;
+			buildPhases = (
+				1499B320201C6901000438DB /* Sources */,
+				1499B321201C6901000438DB /* Frameworks */,
+				1499B322201C6901000438DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1499B327201C6901000438DB /* PBXTargetDependency */,
+				1499B329201C6901000438DB /* PBXTargetDependency */,
+			);
+			name = SayHelloTests;
+			productName = SayHelloTests;
+			productReference = 1499B324201C6901000438DB /* SayHelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		607FACCF1AFB9204008FA782 /* TestLibrary_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TestLibrary_Example" */;
@@ -172,10 +307,12 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				BFF4A5152B5375A248FE5FBD /* [CP] Embed Pods Frameworks */,
 				21479959A18723ED27545145 /* [CP] Copy Pods Resources */,
+				1499B336201C6901000438DB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1499B330201C6901000438DB /* PBXTargetDependency */,
 			);
 			name = TestLibrary_Example;
 			productName = TestLibrary;
@@ -209,10 +346,20 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					1499B31B201C6901000438DB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1499B323201C6901000438DB = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = F8ML633GQS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -239,11 +386,27 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* TestLibrary_Example */,
 				607FACE41AFB9204008FA782 /* TestLibrary_Tests */,
+				1499B31B201C6901000438DB /* SayHello */,
+				1499B323201C6901000438DB /* SayHelloTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1499B31A201C6901000438DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1499B322201C6901000438DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,6 +538,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1499B317201C6901000438DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1499B33A201C690F000438DB /* SayHello.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1499B320201C6901000438DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1499B32C201C6901000438DB /* SayHelloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,6 +574,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1499B327201C6901000438DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1499B31B201C6901000438DB /* SayHello */;
+			targetProxy = 1499B326201C6901000438DB /* PBXContainerItemProxy */;
+		};
+		1499B329201C6901000438DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* TestLibrary_Example */;
+			targetProxy = 1499B328201C6901000438DB /* PBXContainerItemProxy */;
+		};
+		1499B330201C6901000438DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1499B31B201C6901000438DB /* SayHello */;
+			targetProxy = 1499B32F201C6901000438DB /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* TestLibrary_Example */;
@@ -422,6 +616,118 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1499B334201C6901000438DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SayHello/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.SayHello;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1499B335201C6901000438DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SayHello/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.SayHello;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1499B338201C6901000438DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F8ML633GQS;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SayHelloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.SayHelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestLibrary_Example.app/TestLibrary_Example";
+			};
+			name = Debug;
+		};
+		1499B339201C6901000438DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8ML633GQS;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SayHelloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.SayHelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestLibrary_Example.app/TestLibrary_Example";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -525,7 +831,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C8D19E07A964629BBAC4E41 /* Pods-TestLibrary_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -540,7 +848,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86061C42BC966111001139C0 /* Pods-TestLibrary_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -592,6 +902,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1499B333201C6901000438DB /* Build configuration list for PBXNativeTarget "SayHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1499B334201C6901000438DB /* Debug */,
+				1499B335201C6901000438DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1499B337201C6901000438DB /* Build configuration list for PBXNativeTarget "SayHelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1499B338201C6901000438DB /* Debug */,
+				1499B339201C6901000438DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TestLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
