@@ -536,7 +536,7 @@
 		4727FC8D724FF5C408AC6DC7F7C5378C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84EB596F1F8F178DB03B660BA8AB3EA8 /* TestLibrary */,
+				84EB596F1F8F178DB03B660BA8AB3EA8 /* TestLibrary_by_fitch */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -682,14 +682,14 @@
 			path = "Target Support Files/Pods-TestLibrary_Tests";
 			sourceTree = "<group>";
 		};
-		84EB596F1F8F178DB03B660BA8AB3EA8 /* TestLibrary */ = {
+		84EB596F1F8F178DB03B660BA8AB3EA8 /* TestLibrary_by_fitch */ = {
 			isa = PBXGroup;
 			children = (
 				1499B33D201C7181000438DB /* SayHello.swift */,
 				2C4FBE78682536236C85C0B6425A89A2 /* Pod */,
 				85D594E73A95C35410F3D42C37EB81E3 /* Support Files */,
 			);
-			name = TestLibrary;
+			name = TestLibrary_by_fitch;
 			path = ../..;
 			sourceTree = "<group>";
 		};

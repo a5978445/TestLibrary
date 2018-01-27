@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "TestLibrary_Example.app"
-               BlueprintName = "TestLibrary_Example"
-               ReferencedContainer = "container:TestLibrary.xcodeproj">
+               BuildableName = "TestLibrary_by_fitch_Example.app"
+               BlueprintName = "TestLibrary_by_fitch_Example"
+               ReferencedContainer = "container:TestLibrary_by_fitch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "TestLibrary_Tests.xctest"
-               BlueprintName = "TestLibrary_Tests"
-               ReferencedContainer = "container:TestLibrary.xcodeproj">
+               BuildableName = "TestLibrary_by_fitch_Tests.xctest"
+               BlueprintName = "TestLibrary_by_fitch_Tests"
+               ReferencedContainer = "container:TestLibrary_by_fitch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "TestLibrary_Tests.xctest"
-               BlueprintName = "TestLibrary_Tests"
-               ReferencedContainer = "container:TestLibrary.xcodeproj">
+               BuildableName = "TestLibrary_by_fitch_Tests.xctest"
+               BlueprintName = "TestLibrary_by_fitch_Tests"
+               ReferencedContainer = "container:TestLibrary_by_fitch.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -60,7 +60,7 @@
                BlueprintIdentifier = "1499B323201C6901000438DB"
                BuildableName = "SayHelloTests.xctest"
                BlueprintName = "SayHelloTests"
-               ReferencedContainer = "container:TestLibrary.xcodeproj">
+               ReferencedContainer = "container:TestLibrary_by_fitch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "TestLibrary_Example.app"
-            BlueprintName = "TestLibrary_Example"
-            ReferencedContainer = "container:TestLibrary.xcodeproj">
+            BuildableName = "TestLibrary_by_fitch_Example.app"
+            BlueprintName = "TestLibrary_by_fitch_Example"
+            ReferencedContainer = "container:TestLibrary_by_fitch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "TestLibrary_Example.app"
-            BlueprintName = "TestLibrary_Example"
-            ReferencedContainer = "container:TestLibrary.xcodeproj">
+            BuildableName = "TestLibrary_by_fitch_Example.app"
+            BlueprintName = "TestLibrary_by_fitch_Example"
+            ReferencedContainer = "container:TestLibrary_by_fitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -111,9 +111,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "TestLibrary_Example.app"
-            BlueprintName = "TestLibrary_Example"
-            ReferencedContainer = "container:TestLibrary.xcodeproj">
+            BuildableName = "TestLibrary_by_fitch_Example.app"
+            BlueprintName = "TestLibrary_by_fitch_Example"
+            ReferencedContainer = "container:TestLibrary_by_fitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

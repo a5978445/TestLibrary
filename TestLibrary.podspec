@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestLibrary_by_fitch'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'just use test, haw to do create spec.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'TestLibrary/Classes/**/*'
+  s.source_files = 'TestLibrary_by_fitch/Classes/**/*'
   
   # s.resource_bundles = {
   #   'TestLibrary' => ['TestLibrary/Assets/*.png']
