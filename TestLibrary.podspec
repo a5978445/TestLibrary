@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TestLibrary'
+  s.name             = 'TestLibrary_by_fitch'
   s.version          = '0.1.1'
   s.summary          = 'just use test, haw to do create spec.'
 
