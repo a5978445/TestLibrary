@@ -12,7 +12,6 @@
 		1499B32E201C6901000438DB /* SayHello.h in Headers */ = {isa = PBXBuildFile; fileRef = 1499B31E201C6901000438DB /* SayHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1499B331201C6901000438DB /* SayHello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1499B31C201C6901000438DB /* SayHello.framework */; };
 		1499B332201C6901000438DB /* SayHello.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1499B31C201C6901000438DB /* SayHello.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1499B33A201C690F000438DB /* SayHello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499B315201C68E7000438DB /* SayHello.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -69,7 +68,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1499B315201C68E7000438DB /* SayHello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayHello.swift; sourceTree = "<group>"; };
 		1499B31C201C6901000438DB /* SayHello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SayHello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1499B31E201C6901000438DB /* SayHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHello.h; sourceTree = "<group>"; };
 		1499B31F201C6901000438DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 		607FACD21AFB9204008FA782 /* Example for TestLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				1499B315201C68E7000438DB /* SayHello.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -542,7 +539,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1499B33A201C690F000438DB /* SayHello.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,7 +677,6 @@
 		1499B338201C6901000438DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -707,7 +702,6 @@
 		1499B339201C6901000438DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -831,7 +825,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C8D19E07A964629BBAC4E41 /* Pods-TestLibrary_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestLibrary/Info.plist;
@@ -848,7 +841,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86061C42BC966111001139C0 /* Pods-TestLibrary_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestLibrary/Info.plist;
