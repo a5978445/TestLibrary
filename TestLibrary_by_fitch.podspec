@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestLibrary_by_fitch'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'just use test, haw to do create spec.'
 
 # This description is used to generate tags and improve search results.
